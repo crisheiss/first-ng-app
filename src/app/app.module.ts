@@ -6,13 +6,15 @@ import { ServerComponent } from './server/server.component';
 import { AppComponent } from './app.component';
 import { ServersComponent } from './servers/servers.component';
 import { UserComponent } from './user/user.component';
+import { PassworderComponent } from './passworder/passworder.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ServerComponent,
     ServersComponent,
-    UserComponent
+    UserComponent,
+    PassworderComponent
   ],
   imports: [
     BrowserModule,
